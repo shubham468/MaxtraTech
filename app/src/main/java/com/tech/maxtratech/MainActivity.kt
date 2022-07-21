@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity(), VideoPickerCallback {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        requests()
 
         progressDialog = ProgressDialog(this)
 
